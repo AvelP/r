@@ -684,10 +684,12 @@
                         </div>
                      </div>
                      <div class="novosti-box-class podpis">
-                        <div class="contacts-content-form-line">
-                           <input autocomplete="off" type="text" placeholder="E-mail" name="form[]" class="input">
+                        <div class="wrap-podpis">
+                           <div class="contacts-content-form-line">
+                              <input autocomplete="off" type="text" placeholder="E-mail" name="form[]" class="input">
+                           </div>
+                           <button type="submit" class="sendi contacts-menu__link"><span>ok</span></button>
                         </div>
-                        <button type="submit" class="sendi contacts-menu__link"><span>ok</span></button>
                      </div>
                      </div>
                   </div>
@@ -760,3 +762,7 @@
    <script src="js/slick.min.js"> </script>
 </body>
 </html>
+
+
+
+
